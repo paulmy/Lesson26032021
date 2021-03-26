@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ALesson</string>
+    <string name="bubblesort">BubbleSort</string>
+    <string name="input_element">Input element</string>
+    <string name="quicksort">QuickSort</string>
+    <string name="createMassiv">Создать массив</string>
+</resources>

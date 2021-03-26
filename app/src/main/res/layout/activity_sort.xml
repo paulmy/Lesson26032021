@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal">
+
+        <EditText android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:hint="@string/input_element"
+                  android:layout_weight="1"
+                  android:id="@+id/edit_sort"/>
+        <Button android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/createMassiv"
+                android:onClick="onCreateMassiv"/>
+
+
+        <Button android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/bubblesort"
+                android:onClick="onBubbleSort"
+
+        />
+
+        <Button android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/quicksort"
+                android:onClick="onQuickSort"/>
+
+
+
+    </LinearLayout>
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:textSize="20sp"
+                  android:id="@+id/text_sort"/>
+    </ScrollView>
+</LinearLayout>
